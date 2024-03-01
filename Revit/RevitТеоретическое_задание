@@ -1,0 +1,16 @@
+Разработка плагинов для Revit  
+Варианты добавления RevitAPI:
+- добавление в проект ссылок на локальные dll файлы RevitAPI и RevitAPIUI. Стандартные dll файлы при установке Autodesk Revit 
+- использование nuget пакетов
+Недостатки использования локальных dll:
+- сложность обновления
+- необходимость установки всех версий Revit
+Рассмотренные nuget пакеты:
+- Revit_All_Main_Versions_API_x64 by Matthew.Taylor
+- Revit.RevitApi.x64 и Revit.RevitApiUI.x64
+- Nice3point.Revit.Api.RevitAPI, Nice3point.Revit.Api.RevitAPIUI, Nice3point.Revit.Toolkit,Nice3point.Revit.Extensions
+Был выбран последний набор библиотек, так как они обладают рядом преимуществ для разработки:
+- Открытый исходный код
+- поддержка сразу нескольких версий Revit 
+- создание установочника msi
+- поддержка библиотеки Community.Toolkit.Mvvm
