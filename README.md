@@ -33,5 +33,9 @@
 ![image](https://github.com/Ksenia-gra/CoordinateTestApp/assets/58133251/bef5e3ed-60cc-4221-a29c-5a4543ddba37)
 - Отображение координаты точки при наведении курсора
 ![image](https://github.com/Ksenia-gra/CoordinateTestApp/assets/58133251/e358afb2-bc56-43ec-a23b-5da30cb88961)
-
-
+# Использованные библиотеки
+- MaterialDesignThemes
+- Microsoft.Extensions.DependencyInjection
+- Microsoft.Xaml.Behaviors.Wpf
+- Newtonsoft.Json
+- PropertyChanged.Fody
